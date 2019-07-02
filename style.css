@@ -1,0 +1,161 @@
+
+body{
+    background-image: url("./72afa05adedeb3d6a493c1ad845c2039.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 500px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0;
+    user-select: none;
+    height: 100vh;
+    
+}
+
+h1{
+    margin: 0;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.803);
+    display: flex; 
+    justify-content:center;
+    padding-left:25px;
+    position: relative;
+    bottom: 560px;
+    right: 410px;
+    font-size: 100px; 
+    font-family: 'Courier New', Courier, monospace;
+    z-index:-1;
+    text-shadow: 5px 5px gainsboro;
+}
+
+.label {
+    padding-top: 25px;
+}
+#number{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    font-family:  'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+ .table {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 407px;
+    width: 405px;
+    background-color: rgba(0, 0, 0, 0.803);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-items: center;
+} 
+
+.box{
+    border: 2px solid rgba(220, 220, 220, 0.755);
+    width: 127.3px;
+    height: 127.3px;
+    cursor: pointer;
+    background:rgba(220, 220, 220, 0.755);
+    font-size: 100px;
+    color: white;
+    font-weight: 400px;
+    margin: 0 auto;
+    border-radius: 20px;
+    font-family:  'Courier New', Courier, monospace;
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.start, .reset{
+    width: 150px;
+    height: 46.3px; 
+    font-family:  'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    color:black ;
+    background-color: rgba(0, 0, 0, 0.303);
+    cursor:pointer;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
+.start {
+    margin-right: 15px;   
+}
+.reset {
+    margin-left: 15px;
+}
+
+.start:hover {
+    color: white;
+} 
+.reset:hover {
+    color:white;
+}
+
+footer{
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    color: gray;
+    display: flex; 
+    justify-content: flex-start;
+    padding-left:25px;
+    margin: 0;
+  }
+.copyright{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    position: relative;
+    bottom:15px;
+}
+
+
+.score{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    bottom: 535px;
+    left: 50px;
+    width: 500px;
+}
+.player2{
+    margin-left: 50px;
+    border-bottom: 2px solid rgb(193, 192, 192); 
+}
+.player1{
+    border-bottom: 2px solid rgb(193, 192, 192);   
+}
+
+
+
+.scoreCal{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    bottom: 565px;
+    left: 50px;
+    width: 500px;
+}
+#score1{
+    margin-left: 44px;
+    font-size: 25px;
+}
+#score2{
+    margin-left: 162px;
+    font-size: 25px
+}
