@@ -168,14 +168,14 @@ footer{
 
 @media (max-width: 375px) and (max-height: 812px) {
   body {
-     background-size: 510px 830px;
+     background-size: 450px 830px;
      background-position: left;
    }
 
    main{
     background-color:rgba(255, 255, 255, 0.427);
     height: 812px;
-    width: 510px;
+    width: 450px;
     background-position: right;
 }
     .table {
