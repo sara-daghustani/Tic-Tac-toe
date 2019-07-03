@@ -41,7 +41,7 @@ function playGame(addXtoBox, boxvalue) {
       gameOver = true;
       // all buttons disabled
       boxes.attr("disabled", true);
-      playerLabel.text("Please Reset the Game"); // show message game over
+      playerLabel.text("Reset the Game"); // show message game over
       // update players score
       if (Number(!turn) == 0) {
         score.player1score++;
@@ -148,7 +148,7 @@ function wincheck() {
   });
 
     // alert("it's a Tie");
-    playerLabel.text("please Reset");
+    playerLabel.text("Reset the Game");
     return false;
   }
   
