@@ -168,8 +168,8 @@ footer{
 
 @media (max-width: 375px) and (max-height: 812px) {
   body {
-     background-size: 450px 830px;
-     background-position: left;
+     background-size: cover;
+     background-position: center;
    }
 
    main{
@@ -179,14 +179,14 @@ footer{
     background-position: right;
 }
     .table {
-        margin-top: 25px;
-        height: 410px;
-        width: 370px;
+        margin-top: 30px;
+        height: 320px;
+        width: 320px;
     } 
     .box{
         border: 2px solid rgba(220, 220, 220, 0.755);
-        width: 133.3px;
-        height:128px;
+        width: 106px;
+        height:98px;
         cursor: pointer;
         font-size: 60px;
         color: white;
@@ -201,33 +201,36 @@ footer{
     }
 
     .label {
-        padding-top: 40px;
+        padding-top: 15px;
         font-weight: bolder;
         justify-content: center;
     }  
 
     .reset{
-    margin-top: 90px;
+    margin-top: 30px;
     font-weight: bolder;
     }
 
     .score{
     justify-content: center;
-    bottom: 300px; 
+    bottom: 260px; 
     left: 0px;
     width: 100%;
     font-size: 20px;
     margin-top: 50px;
+    color: black;
+    font-weight: bold;
 
 
     }
 
     .scoreCal{
         justify-content: center;
-        bottom: 350px; 
+        bottom: 320px; 
         left: 0px;
         width: 100%;
-        font-size: 20px
+        font-size: 20px;
+        z-index: -2;
     }
 
     #score1{
