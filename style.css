@@ -166,17 +166,17 @@ footer{
     font-size: 25px
 }
 
-@media (max-width: 414px) and (max-height: 812px) {
+@media (max-width: 375px) and (max-height: 812px) {
   body {
-     background-size: 414px 810px;
+     background-size: 375px 812px;
    }
    main{
     background-color:rgba(255, 255, 255, 0.235);
 }
     .table {
-        margin-top: 50px;
+        margin-top: 25px;
         height: 410px;
-        width: 400px;
+        width: 370px;
     } 
     .box{
         border: 2px solid rgba(220, 220, 220, 0.755);
@@ -188,18 +188,14 @@ footer{
         font-weight: 400px;
     }
     #number{
-        padding-left: 100px;
-        padding-right: 100px;
-        padding-top: 10px;
-        padding-bottom:10px;
-        font-family:  'Courier New', Courier, monospace;
+        padding: 0px;
         text-align: center;
         font-size: 30px;
         color: black;
     }
 
     .label {
-        padding-top: 0px;
+        padding-top: 40px;
     }    
 
 }
