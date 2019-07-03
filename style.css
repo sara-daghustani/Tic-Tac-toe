@@ -168,7 +168,7 @@ footer{
 
 @media (max-width: 375px) and (max-height: 812px) {
   body {
-     background-size: 520px 812px;
+     background-size: 520px 830px;
      background-position: left;
    }
 
@@ -249,5 +249,7 @@ footer{
         padding-bottom: 0px;
         bottom:0px;
     }
-     
+     h1{
+      display: none;   
+     }
 }

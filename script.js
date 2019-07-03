@@ -151,4 +151,5 @@ function wincheck() {
     playerLabel.text("Please Reset the Game");
     return false;
   }
+  
 }
