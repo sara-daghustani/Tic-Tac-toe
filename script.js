@@ -1,10 +1,8 @@
-
-
 // assign valubles..
 var boxes = $(".box");  // this is for each cell in the table
 var turn = 0; //players turn 0=X and 1=O
 var score = { player1score: 0, player2score: 0 }; // overall game score.
-var gameOver = true; // is the game over??  yes or no. 
+var gameOver = false; // is the game over??  yes or no. 
 var playerLabel = $("#number"); // the game lable.  
 var markers = ["X", "O"]; // an array of the input x and O
 var score1 = $("#score1"); // player1 score .  
@@ -15,16 +13,7 @@ var btnsDisabled;
 var buttons = $(".buttons button"); // get the start and rest buttons
 // click event for start and rest buttons
 buttons.click(function () {
-  if (this.id == "start") {
-    // start the game buttons
-    boxes.attr("disabled", false);
-    // show who is the current player 
-    playerLabel.text("Player " + (turn + 1) + "'s Turn");
-    this.disabled = "true"; // disable start button 
-    buttons[1].disabled = false; //enable reset button 
-    gameOver = false; // game is running
-
-  } else if (this.id == "reset") {
+   if (this.id == "reset") {
     boxes.attr("disabled", false);
     for (var i = 0; i < boxes.length; i++) {
       boxes[i].disabled = false;
@@ -32,7 +21,6 @@ buttons.click(function () {
     boxes.text(""); // remove all markers from buttons
     playerLabel.text("Player " + (turn + 1) + "'s Turn");
     gameOver = false;
-
     // show the score for both players
     score1.text(score.player1score);
     score2.text(score.player2score);
@@ -41,7 +29,7 @@ buttons.click(function () {
 
 
 function playGame(addXtoBox, boxvalue) {
-  if (!gameOver) {
+  if (!gameOver && addXtoBox.innerHTML=="") {
     // write an if condition to check the cell it it's empyt or not 
     addXtoBox.innerHTML = boxvalue; // input 
     addXtoBox.disabled = true;
@@ -134,7 +122,7 @@ function wincheck() {
   // check how many buttons are disabled
   for (var i = 0; i < boxes.length; i++) {
     console.log("here", boxes[i].disabled)
-    if (boxes[i].disabled == true) {
+    if (boxes[i].innerHTML != "") {
       btnsDisabled++;
     }
   }
