@@ -171,12 +171,12 @@ footer{
      background-size: 520px 812px;
      background-position: left;
    }
+
    main{
     background-color:rgba(255, 255, 255, 0.427);
     height: 812px;
     width: 520px;
     background-position: right;
-
 }
     .table {
         margin-top: 25px;
@@ -192,6 +192,7 @@ footer{
         color: white;
         font-weight: 400px;
     }
+
     #number{
         padding: 0px;
         text-align: center;
@@ -201,9 +202,13 @@ footer{
 
     .label {
         padding-top: 40px;
-    }    
+        font-weight: bolder;
+        justify-content: center;
+    }  
+
     .reset{
     margin-top: 90px;
+    font-weight: bolder;
     }
 
     .score{
@@ -221,23 +226,24 @@ footer{
         width: 500px;
         font-size: 20px
     }
+
     #score1{
         margin-left: -10px;
         font-size: 25px;
     }
+
     #score2{
         margin-left: 185px;
         font-size: 25px
     }
 
     footer{
-     
         justify-content: flex-start;
         padding-left:25px;
+        color: black;
 
       }
-    
-    
+
     .copyright{
         margin-bottom: 0px;
         padding-bottom: 0px;
