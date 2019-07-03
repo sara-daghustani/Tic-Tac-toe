@@ -148,7 +148,7 @@ function wincheck() {
   });
 
     // alert("it's a Tie");
-    playerLabel.text("Please Reset the Game");
+    playerLabel.text("please Reset");
     return false;
   }
   

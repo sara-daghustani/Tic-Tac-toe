@@ -179,6 +179,7 @@ footer{
     background-position: right;
 }
     .table {
+       
         margin-top: 30px;
         height: 320px;
         width: 320px;
@@ -186,11 +187,12 @@ footer{
     .box{
         border: 2px solid rgba(220, 220, 220, 0.755);
         width: 106px;
-        height:98px;
+        height:100px;
         cursor: pointer;
         font-size: 60px;
         color: white;
         font-weight: 400px;
+        padding:0;
     }
 
     #number{
