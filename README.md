@@ -93,13 +93,16 @@ index.html
 </ul>
 
 ----
+<h6><strong> Developer: </strong></h6>
+<p>Sara Daghustani</p>
+
+----
+
 <h5>Reference : </h5>
 <ul>
  <li> https://sweetalert2.github.io/ .</li>
  <li> https://github.com/daneden/animate.css  .</li>
 </ul>
-----
 
-<h6><strong> Developer: </strong></h6>
-<p>Sara Daghustani</p>
+
  
