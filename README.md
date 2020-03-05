@@ -5,7 +5,6 @@
 <h5> Client:  Children.</h5> 
 <h5> Website:</h5> 
 <p><a href="https://sara-daghustani.github.io/Tic-Tac-toe/" target="_blank"> https://sara-daghustani.github.io/Tic-Tac-toe/</a></p>
-</br>
 
 <h4> Tic Tac Toe Website Overview: </h4>
 <p>This game was created as a part of the learning process.
@@ -20,7 +19,7 @@ To get a local copy up and running follow these simple steps.
  
 1. Clone the repo
 ```sh
-git clone https:://github.com/github_username/repo.git
+git clone https://github.com/github_username/repo.git
 ```
 2. To Start the game open index.html
 
